@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import showStore from "../stores/showStore";
 import React from "react";
+import Header from "../components/Header";
 import {
   AreaChart,
   Area,
@@ -69,12 +70,12 @@ if (store.data) {
 }
   return (
     <div>
-      <header>
+      <Header>
         {/* <img src={store.data.image.large} alt="" /> */}
         <h2>
           {/* {store.data.name} ({store.data.symbol}) */}
         </h2>
-      </header>
+      </Header>
       <AreaChart
         width={500}
         height={400}
