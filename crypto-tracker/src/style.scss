@@ -122,12 +122,49 @@ input {
 
 .home-search .img-search {
     width: 100%;
-    display: flex;
+    display:grid;
 }
 
 .home-search img {
     max-width: 70%;
     margin: auto;
+}
+
+.home-crypto {
+    a {
+        text-decoration: none;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    span {
+        display: block;
+    }
+}
+
+.home-crypto-name {
+    flex: 1;
+    font-size: 13px;
+    color: #111;
+    font-weight: 600;
+}
+
+.home-crypto-image {
+    width: 40px;
+    max-width: 100%;
+    display: block;
+}
+
+.home-crypto-Btc {
+    color: #111;
+    font-size: 15px;
+}
+
+.home-crypto-Usd {
+    color: #111;
+    font-size: 10px;
 }
 
 @media screen and (max-width: 740px) {
@@ -152,7 +189,7 @@ input {
 .featured {
     width: 100%;
     padding: 8rem 0;
-    background-color: #ffc40044;
+    background-color: #eeb80661;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
 }
 
@@ -173,7 +210,8 @@ input {
 
 .featured .left-f p {
     margin: 1.5rem 0;
-    color: rgb(179, 142, 8);
+    // color: rgb(179, 142, 8);
+    color: black;
 }
 
 .featured .right-f {
@@ -181,8 +219,13 @@ input {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.linkto {
+    text-decoration: none;
+    color: black;
+}
 
 .featured .right-f .card {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     padding: 12px 22px;

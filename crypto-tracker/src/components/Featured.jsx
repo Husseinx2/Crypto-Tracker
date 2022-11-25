@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiArrowUpRight, FiArrowDown } from "react-icons/fi";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Featured = () => {
   const [data, setData] = useState(null);
@@ -19,17 +20,18 @@ const Featured = () => {
   if (!data) return null;
 
   return (
-    <div className="featured">
+      <div className="featured">
       <div className="ftrd">
         {/* {left} */}
         <div className="left-f">
           <h2><b>Checkout Top Trending <bdo className="Word-CLR">Coins!</bdo></b></h2>
-          <p>Live prices & data, with just one click</p>
+          <p>Live prices & data, with just One Click!</p>
         </div>
 
         {/* {right} */}
 
         <div className="right-f">
+        <Link className="linkto" to={`/${data[0].id}`}>
           <div className="card">
             <div className="top">
               {/* <img src={BTC} alt="" /> */}
@@ -52,6 +54,8 @@ const Featured = () => {
               </span>
             )}
           </div>
+          </Link>
+          <Link className="linkto" to={`/${data[1].id}`}>
           <div className="card">
             <div className="top">
               <img src={data[1].image} alt="" />
@@ -73,6 +77,8 @@ const Featured = () => {
               </span>
             )}
           </div>
+          </Link>
+          <Link className="linkto" to={`/${data[2].id}`}>
           <div className="card">
             <div className="top">
               {/* <img src={BTC} alt="" /> */}
@@ -95,6 +101,8 @@ const Featured = () => {
               </span>
             )}
           </div>
+          </Link>
+          <Link className="linkto" to={`/${data[3].id}`}>
           <div className="card">
             <div className="top">
               {/* <img src={BTC} alt="" /> */}
@@ -117,6 +125,8 @@ const Featured = () => {
               </span>
             )}
           </div>
+          </Link>
+          <Link className="linkto" to={`/${data[4].id}`}>
           <div className="card">
             <div className="top">
               {/* <img src={BTC} alt="" /> */}
@@ -139,6 +149,8 @@ const Featured = () => {
               </span>
             )}
           </div>
+          </Link>
+          <Link className="linkto" to={`/${data[5].id}`}>
           <div className="card">
             <div className="top">
               {/* <img src={BTC} alt="" /> */}
@@ -161,6 +173,7 @@ const Featured = () => {
               </span>
             )}
           </div>
+            </Link>
         </div>
       </div>
     </div>
