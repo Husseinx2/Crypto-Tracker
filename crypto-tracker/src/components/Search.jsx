@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Homepic from "../homepic.png";
+import Homepic from "../Assets/Images/homepic.png";
 import homeStore from "../stores/homeStore";
 
 const Search = () => {
