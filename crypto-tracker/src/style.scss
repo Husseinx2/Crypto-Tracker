@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
@@ -13,32 +14,37 @@ a {
 
 
 .navbar {
-    background:#EEBC1D;
+    background: #EEBC1D;
     background-image: linear-gradient(to right, #b8bb06, #EEbc4d, #EEBC1D);
     color: white;
-   
+
     height: 5em;
-    
-   
+
+
 }
+
 .container {
     max-width: 1240px;
     margin: auto;
 }
 
 .Navbar-Brand {
-  
-    font-size:25px;
+
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
+
 .Navbar-logo {
     width: 30;
     height: 30;
     margin-right: 2rem;
     max-width: 4rem;
 }
+
 .NavLink {
     color: white;
 }
+
 //input
 
 input {
@@ -58,14 +64,17 @@ input {
         font-size: 2.1rem;
         line-height: 1.2;
     }
+
     h2 {
         font-size: 1.5rem;
         line-height: 1.2;
     }
+
     h5 {
         font-size: 1.1rem;
         line-height: 1.2;
     }
+
     p {
         font-size: 1rem;
     }
@@ -73,7 +82,7 @@ input {
 
 // home search
 
-.home-search .srch{
+.home-search .srch {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 4rem auto;
@@ -91,10 +100,18 @@ input {
     font-family: sans-serif;
     font-weight: bold;
 }
+
 .home-search p {
     font-family: sans-serif;
     color: rgba(128, 128, 128, 0.919);
 }
+<<<<<<< HEAD
+=======
+
+.Word-CLR {
+    color: #EEBC1D;
+}
+>>>>>>> 451f914eecddd9205d7cbbe2d8bd418529b7a593
 
 .home-search .input-container {
     padding: 1rem 0;
@@ -105,9 +122,9 @@ input {
 }
 
 .home-search .img-search {
-     width: 100%;
-     display: flex;
- }
+    width: 100%;
+    display: flex;
+}
 
 .home-search img {
     max-width: 70%;
@@ -119,6 +136,7 @@ input {
         grid-template-columns: 1fr;
         margin: 1rem 0;
     }
+<<<<<<< HEAD
 }
 
 
@@ -219,4 +237,6 @@ input {
     .featured .ftrd .right-f .card {
         width: 100%;
     }
+=======
+>>>>>>> 451f914eecddd9205d7cbbe2d8bd418529b7a593
 }
