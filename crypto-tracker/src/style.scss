@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+.Word-CLR {
+    color: #EEBC1D;
+}
+
 
 .navbar {
     background:#EEBC1D;
@@ -85,13 +89,11 @@ input {
 .home-search h1 {
     padding: 1rem 0;
     font-family: sans-serif;
+    font-weight: bold;
 }
 .home-search p {
     font-family: sans-serif;
     color: rgba(128, 128, 128, 0.919);
-}
-.Word-CLR {
-    color: #EEBC1D;
 }
 
 .home-search .input-container {
@@ -116,5 +118,105 @@ input {
     .home-search .srch {
         grid-template-columns: 1fr;
         margin: 1rem 0;
+    }
+}
+
+
+//featured 
+
+.green {
+    color: 	#39db1c;
+}
+
+.red {
+    color: red;
+}
+
+.featured {
+    width: 100%;
+    padding: 8rem 0;
+    background-color: #ffc40044;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+}
+
+.featured .ftrd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.featured .left-f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.featured .left-f p {
+    margin: 1.5rem 0;
+    color: rgb(179, 142, 8);
+}
+
+.featured .right-f {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.featured .right-f .card {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 22px;
+    margin: .4rem;
+    width: 170px;
+    height: 170px;
+    border-radius: 24px;
+    border: 1px solid #d3d3d3;
+    box-shadow: rgb(0 0 0 / 12%) 0px 8px 24px;
+    text-align: center;
+}
+
+.featured .right-f .card:hover {
+    box-shadow: rgb(255, 188, 4) 3px 4px 80px 4px;
+}
+
+.featured .card .top {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured .right-f img {
+    width: 50px;
+    margin: auto;
+    padding: .2rem 0;
+}
+.featured .right-f p {
+    padding-bottom: 5px;
+    line-height: 0px;
+}
+
+.featured .icon {
+    font-size: 30px;
+    margin: auto;
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured span {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 740px) {
+    .featured .ftrd {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .featured .ftrd .right-f .card {
+        width: 100%;
     }
 }

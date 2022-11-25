@@ -34,7 +34,6 @@ const Search = () => {
               onChange={store.setQuery}
               placeholder="Type to Search"
             />
-
             {store.coins.map((coin) => {
               return (
                 <div key={coin.id}>
