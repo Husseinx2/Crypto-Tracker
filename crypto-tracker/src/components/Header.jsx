@@ -7,10 +7,9 @@ import Logo from '../Assets/Images/Logo.png';
 
 export default function Header() {
   return (
-
     <Navbar className="navbar" bg="light" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand className="Navbar-Brand" href="/"> <img src={Logo} className="Navbar-logo " /></Navbar.Brand>
+        <Navbar.Brand className="Navbar-Brand" href="/"> <img src={Logo} className="Navbar-logo" alt="" /></Navbar.Brand>
         <Navbar.Brand className="Navbar-Brand" href="/"> Crypto Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
