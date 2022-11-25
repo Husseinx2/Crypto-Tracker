@@ -3,6 +3,7 @@ import React from "react";
 import homeStore from "../stores/homeStore";
 import Header from "../components/Header";
 import Search from "../components/Search"
+import Featured from "../components/Featured"
 
 export default function Home() {
   const store = homeStore();
@@ -14,16 +15,7 @@ export default function Home() {
     <div>
       <Header />
       <Search />
-        {/* <input type="text" value={store.query} onChange={store.setQuery}/>
-      {store.coins.map((coin) => {
-        return (
-          <div key={coin.id}>
-            <Link to={`/${coin.id}`}>
-            {coin.name}
-            </Link>
-          </div>
-        );
-      })} */}
+      <Featured />
     </div>
   );
 }
