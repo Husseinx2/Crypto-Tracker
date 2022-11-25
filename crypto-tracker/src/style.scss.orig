@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Word-CLR {
+    color: #EEBC1D;
+}
+
+
+.navbar {
+    background: #EEBC1D;
+    background-image: linear-gradient(to right, #b8bb06, #EEbc4d, #EEBC1D);
+    color: white;
+
+    height: 5em;
+
+
+}
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.Navbar-Brand {
+
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.Navbar-logo {
+    width: 30;
+    height: 30;
+    margin-right: 2rem;
+    max-width: 4rem;
+}
+
+.NavLink {
+    color: white;
+}
+
+//input
+
+input {
+    padding: 7px 34px;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 24px 24px;
+    font-size: 1rem;
+    margin-right: .8rem;
+    font-family: sans-serif;
+}
+
+
+
+@media screen and (max-width:760px) {
+    h1 {
+        font-size: 2.1rem;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+        line-height: 1.2;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+// home search
+
+.home-search .srch {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.home-search .left-s {
+    padding: 1rem;
+}
+
+.home-search h1 {
+    padding: 1rem 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.home-search p {
+    font-family: sans-serif;
+    color: rgba(128, 128, 128, 0.919);
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 451f914eecddd9205d7cbbe2d8bd418529b7a593
+
+.Word-CLR {
+    color: #EEBC1D;
+}
+>>>>>>> 451f914eecddd9205d7cbbe2d8bd418529b7a593
+
+.home-search .input-container {
+    padding: 1rem 0;
+}
+
+.home-search .rigth-s {
+    padding: 1rem;
+}
+
+.home-search .img-search {
+    width: 100%;
+    display: flex;
+}
+
+.home-search img {
+    max-width: 70%;
+    margin: auto;
+}
+
+@media screen and (max-width: 740px) {
+    .home-search .srch {
+        grid-template-columns: 1fr;
+        margin: 1rem 0;
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+
+
+//featured 
+
+.green {
+    color: 	#39db1c;
+}
+
+.red {
+    color: red;
+}
+
+.featured {
+    width: 100%;
+    padding: 8rem 0;
+    background-color: #ffc40044;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+}
+
+.featured .ftrd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.featured .left-f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.featured .left-f p {
+    margin: 1.5rem 0;
+    color: rgb(179, 142, 8);
+}
+
+.featured .right-f {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.featured .right-f .card {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 22px;
+    margin: .4rem;
+    width: 170px;
+    height: 170px;
+    border-radius: 24px;
+    border: 1px solid #d3d3d3;
+    box-shadow: rgb(0 0 0 / 12%) 0px 8px 24px;
+    text-align: center;
+}
+
+.featured .right-f .card:hover {
+    box-shadow: rgb(255, 188, 4) 3px 4px 80px 4px;
+}
+
+.featured .card .top {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured .right-f img {
+    width: 50px;
+    margin: auto;
+    padding: .2rem 0;
+}
+.featured .right-f p {
+    padding-bottom: 5px;
+    line-height: 0px;
+}
+
+.featured .icon {
+    font-size: 30px;
+    margin: auto;
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured span {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 740px) {
+    .featured .ftrd {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .featured .ftrd .right-f .card {
+        width: 100%;
+    }
+=======
+>>>>>>> 451f914eecddd9205d7cbbe2d8bd418529b7a593
+=======
+>>>>>>> 451f914eecddd9205d7cbbe2d8bd418529b7a593
+}
