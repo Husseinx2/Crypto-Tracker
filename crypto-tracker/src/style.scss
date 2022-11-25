@@ -16,4 +16,93 @@ a {
     background:#EEBC1D;
     color: white;
 }
+.container {
+    max-width: 1240px;
+    margin: auto;
+}
 
+//input
+
+input {
+    padding: 7px 34px;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 24px 24px;
+    font-size: 1rem;
+    margin-right: .8rem;
+    font-family: sans-serif;
+}
+input:hover {
+
+}
+
+
+@media screen and (max-width:760px) {
+    h1 {
+        font-size: 2.1rem;
+        line-height: 1.2;
+    }
+    h2 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+    h5 {
+        font-size: 1.1rem;
+        line-height: 1.2;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+// home search
+
+.home-search .srch{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.home-search .left-s {
+    padding: 1rem;
+}
+
+.home-search h1 {
+    padding: 1rem 0;
+    font-family: sans-serif;
+}
+.home-search p {
+    font-family: sans-serif;
+    color: rgba(128, 128, 128, 0.919);
+}
+.Word-CLR {
+    color: #EEBC1D;
+}
+
+.home-search .input-container {
+    padding: 1rem 0;
+}
+
+.home-search .rigth-s {
+    padding: 1rem;
+}
+
+.home-search .img-search {
+     width: 100%;
+     display: flex;
+ }
+
+.home-search img {
+    max-width: 70%;
+    margin: auto;
+}
+
+@media screen and (max-width: 740px) {
+    .home-search .srch {
+        grid-template-columns: 1fr;
+        margin: 1rem 0;
+    }
+}
