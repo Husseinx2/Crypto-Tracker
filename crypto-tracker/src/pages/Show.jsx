@@ -60,8 +60,10 @@ export default function Show() {
   const store = showStore();
   const params = useParams();
 
+  // eslint-disable-next-line
   React.useEffect(() => {
     store.fetchData(params.id);
+    // eslint-disable-next-line
   }, []);
 
 //   if (!store.data) return <></>;
