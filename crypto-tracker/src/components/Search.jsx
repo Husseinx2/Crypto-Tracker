@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Homepic from "../Assets/Images/homepic.png";
+import Homepic2 from "../Assets/Images/homepic2.gif";
 import homeStore from "../stores/homeStore";
 
 const Search = () => {
@@ -14,15 +15,15 @@ const Search = () => {
       <div className="srch">
         {/* {Left side} */}
         <div className="left-s">
-          <p>
-            Simply and securely buy, sell, and manage hundreds of crypto
-            currencies.
-          </p>
+          <p>Invest Wisely! Crypto Tracker is a live crypto analy</p>
           <h1>
             Explore crypto like{" "}
             <span className="Word-CLR">Bitcoin, Ethereum, and Dogecoin</span>
           </h1>
-          <p>Invest wisely! Crypto Tracker is a live crypto analy</p>
+          <p>
+            Simply and Securely Buy, Sell, and Manage Hundreds of Crypto
+            Currencies
+          </p>
           <h1>
             Search For <span className="Word-CLR">Coin</span>
           </h1>
@@ -36,8 +37,21 @@ const Search = () => {
             />
             {store.coins.map((coin) => {
               return (
-                <div key={coin.id}>
-                  <Link to={`/${coin.id}`}>{coin.name}</Link>
+                <div className="home-crypto">
+                  <Link to={`/${coin.id}`}>
+                    <span className="home-crypto-image">
+                      <img src={coin.image} alt="" />
+                    </span>
+                    <span className="home-crypto-name">{coin.name}</span>
+                    <span className="home-crypto-prices">
+                      <span className="home-crypto-Btc">
+                        {coin.priceBtc} <bdo className="Word-CLR">BTC</bdo>
+                      </span>
+                      <span className="home-crypto-Usd">
+                        {coin.priceUsd} <bdo className="Word-CLR">USD</bdo>
+                      </span>
+                    </span>
+                  </Link>
                 </div>
               );
             })}
@@ -47,6 +61,7 @@ const Search = () => {
         {/* {Right side} */}
         <div className="right-s">
           <div className="img-search">
+            <img src={Homepic2} alt="" />
             <img src={Homepic} alt="" />
           </div>
         </div>
