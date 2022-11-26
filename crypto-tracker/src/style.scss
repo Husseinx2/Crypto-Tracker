@@ -283,9 +283,16 @@ input {
 //crypto
 
 .whatiscrypto {
-  bdo {
-    color: #eebc1d;
-  }
+  span {
+    background-color:#eebc1d;
+    height:1em;
+    transform: rotate(-1deg);
+    z-index:-1;
+    filter:url(#marker-shape);
+    top:0.1em;
+    padding:0 0.25em;
+    border-radius: 15% 15% 15% 15%;
+   }
   font-size: 28px;
   font-weight: bolder;
   font-family: "Courier New";
@@ -301,6 +308,12 @@ input {
   align-items: center;
   padding: 3rem 1rem;
 }
+
+.crypto-head .crypto-container .left-c {
+
+  padding: 1rem;
+}
+
 
 .crypto-head .crypto-container h2 {
   font-family:  LabGrotesque,arial,sans-serif;
@@ -331,7 +344,9 @@ input {
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
+  border-radius: 15px;
 }
+// HEAD
 #more {display: none;}
 
 // footer
@@ -346,4 +361,16 @@ input {
  text-decoration: none;
  color: white;
 }
+
+
+
+@media screen and (max-width: 740px) {
+  .crypto-head .crypto-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+#more {display: none;}
+#more2 {display: none;}
 
