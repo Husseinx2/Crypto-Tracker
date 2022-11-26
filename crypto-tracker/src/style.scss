@@ -18,7 +18,7 @@ a {
   background: #eebc1d;
   background-image: linear-gradient(to left, #eeb8066f, #e1ae40cb, #eebc1d);
   color: white;
-  height: 4em;
+ 
 }
 
 .container {
@@ -333,3 +333,17 @@ input {
   font-size: 12px;
 }
 #more {display: none;}
+
+// footer
+
+.site-footer {
+  background-image: linear-gradient(to left, #494848, #878787,#787878);
+  padding-top: 20px 0;
+  margin-top: 2rem;
+}
+
+ .link{
+ text-decoration: none;
+ color: white;
+}
+

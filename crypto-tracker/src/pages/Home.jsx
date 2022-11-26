@@ -6,7 +6,7 @@ import Search from "../components/Search"
 import Featured from "../components/Featured"
 import News from "../components/News";
 import Crypto from "../components/Crypto";
-
+import Footer from "../components/Footer";
 export default function Home() {
   const store = homeStore();
   React.useEffect(() => {
@@ -20,6 +20,7 @@ export default function Home() {
       <Featured />
       <News />
       <Crypto />
+      <Footer/>
     </div>
   );
 }

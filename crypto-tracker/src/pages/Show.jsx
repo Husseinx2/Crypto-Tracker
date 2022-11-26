@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import showStore from "../stores/showStore";
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import {
   AreaChart,
   Area,
@@ -121,6 +122,8 @@ if (store.data) {
           {/* {store.data.market_data.price_change_percentage_1y.toFixed(2)}% */}
         </span>
       </div>
+      <Footer/>
     </div>
+    
   );
 }
