@@ -18,8 +18,8 @@ export default function Home() {
       <Header />
       <Search />
       <Featured />
-      <News />
       <Crypto />
+      <News />
       <Footer/>
     </div>
   );
