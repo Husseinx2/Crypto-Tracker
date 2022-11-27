@@ -316,9 +316,6 @@ input {
     background-color: #eebc1d;
     height: 1em;
     transform: rotate(-1deg);
-    z-index: -1;
-    filter: url(#marker-shape);
-    top: 0.1em;
     padding: 0 0.25em;
     border-radius: 15% 15% 15% 15%;
   }
@@ -406,4 +403,67 @@ input {
 .link {
   text-decoration: none;
   color: white;
+}
+
+
+// show
+
+.show-header {
+  padding: 40px 0;
+  text-align: center;
+
+  img {
+
+  }
+
+  h2 {
+
+  }
+}
+
+.show-graph {
+  height: 200px;
+  width: 100%;
+}
+
+.width {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.show-details {
+  padding-top: 40px;
+  padding-bottom: 60px;
+
+  h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Courier New";
+  }
+  .deets {
+    background-color: #eebc1d;
+    height: 1em;
+    transform: rotate(-1deg);
+    padding: 0 0.25em;
+    border-radius: 15% 15% 15% 15%;
+  }
+}
+
+.show-details-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  color: #eebc1d;
+  font-size: 13.8px;
+
+  h3 {
+    font-size: 14.5px;
+    font-weight: bold;
+    color: #111;
+  }
 }
