@@ -11,7 +11,7 @@ const showStore = create((set) => ({
         `https://api.coingecko.com/api/v3/coins/${id}/market_chart?vs_currency=usd&days=121`
       ),
       axios.get(
-        `https://api.coingecko.com/api/v3/coins/${id}?localization=false&market_data=true`
+        `https://api.coingecko.com/api/v3/coins/${id}?market_data=true`
       ),
     ]);
 
