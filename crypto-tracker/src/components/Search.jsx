@@ -43,14 +43,16 @@ const Search = () => {
                       <img src={coin.image} alt="" />
                     </span>
                     <span className="home-crypto-name">{coin.name}</span>
+                    {coin.priceBtc && (
                     <span className="home-crypto-prices">
                       <span className="home-crypto-Btc">
                         {coin.priceBtc} <bdo className="Word-CLR">BTC</bdo>
                       </span>
                       <span className="home-crypto-Usd">
                         {coin.priceUsd} <bdo className="Word-CLR">USD</bdo>
-                      </span>
+                      </span> 
                     </span>
+                      )}
                   </Link>
                 </div>
               );
