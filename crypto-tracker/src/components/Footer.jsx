@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="site-footer">
       <Container>
         <Row>
-          <Col xs={{ size: 4, offset: 1 }} sm="2">
+          <Col className="col-sm">
             <h5>Links</h5>
             <ul className="list-unstyled">
               <li>
@@ -28,8 +28,8 @@ export default function Footer() {
               </li>
             </ul>
           </Col>
-          <Col xs="6" sm="3" className="text-center">
-            <h5> Our Socials</h5>
+          <Col  className="text-center col-sm">
+            <h5> Socials</h5>
             <a
               className="btn btn-social-icon btn-instagram"
               href="http://instagram.com/abdulrahmancodes"
@@ -56,7 +56,7 @@ export default function Footer() {
             </a>
           </Col>
 
-          <Col xs="6" sm="3" className="text-center">
+          <Col xs="6" sm="4" className="text-center col-sm">
              <h5>Developers</h5>
              <ul className="list-unstyled">
                <li> 
@@ -64,15 +64,16 @@ export default function Footer() {
                   Api{" "}
                 </Link>
                </li>
-
+           
              </ul>
 
 
           </Col>
-          <Col xs="6" sm="3" className="text-center">
+          <Col xs="6" sm="3" className="text-center col-sm">
              <h5>Contact Us</h5>
-             
+           
           </Col>
+         
 
         </Row>
       </Container>
