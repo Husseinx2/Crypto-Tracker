@@ -54,7 +54,7 @@ const homeStore = create((set) => ({
         priceUsd: (coin.item.price_btc * btcPrice).toFixed(5),
       };
     });
-
+    
     set({ coins, trending: coins });
   },
 }));
