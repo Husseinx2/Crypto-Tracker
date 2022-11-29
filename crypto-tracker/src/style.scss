@@ -18,7 +18,6 @@ a {
   background: #eebc1d;
   background-image: linear-gradient(to left, #eeb8066f, #e1ae40cb, #eebc1d);
   color: white;
- 
 }
 
 .container {
@@ -45,7 +44,6 @@ a {
 .NavLink {
   color: white;
 }
-
 
 //input
 
@@ -210,6 +208,26 @@ input {
   color: black;
 }
 
+.featured .left-f .coin-button {
+  align-self: flex-start;
+}
+
+.coin-button {
+  padding: 14px 32px;
+  border: 2px solid rgba(15, 1, 1, 0.628);
+  background-color: #eebc1d;
+  color: #fff;
+  border-radius: 24px 4px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.coin-button:hover {
+  border: 0px;
+  box-shadow: rgb(255, 188, 4) 3px 4px 80px 4px;
+  font-size: 18px;
+}
+
 .featured .right-f {
   display: flex;
   flex-wrap: wrap;
@@ -269,6 +287,18 @@ input {
   .featured .ftrd {
     grid-template-columns: 1fr;
   }
+  .featured .left-f .coin-button {
+    align-self: center;
+  }
+  .featured .left-f h2 {
+    align-self: center;
+  }
+  .featured .left-f p {
+    align-self: center;
+  }
+  .featured .left-f form {
+    align-self: center;
+  }
 }
 
 @media screen and (max-width: 478px) {
@@ -279,20 +309,17 @@ input {
 
 //news
 
-
 //crypto
 
 .whatiscrypto {
   span {
-    background-color:#eebc1d;
-    height:1em;
+    background-color: #eebc1d;
+    height: 1em;
     transform: rotate(-1deg);
-    z-index:-1;
-    filter:url(#marker-shape);
-    top:0.1em;
-    padding:0 0.25em;
+    padding: 0 0.25em;
     border-radius: 15% 15% 15% 15%;
-   }
+    font-size: 28px;
+  }
   font-size: 28px;
   font-weight: bolder;
   font-family: "Courier New";
@@ -310,29 +337,31 @@ input {
 }
 
 .crypto-head .crypto-container .left-c {
-
   padding: 1rem;
 }
 
-
 .crypto-head .crypto-container h2 {
-  font-family:  LabGrotesque,arial,sans-serif;
+  font-family: LabGrotesque, arial, sans-serif;
   font-size: 1rem;
-  letter-spacing: .0625rem;
+  letter-spacing: 0.0625rem;
   font-weight: bold;
 }
 
 .crypto-head .crypto-container p {
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .bold-text {
   font-weight: bold;
-  font-family: LabGrotesque,arial,sans-serif;
+  font-family: LabGrotesque, arial, sans-serif;
   font-size: 15px;
   font-weight: bold;
   color: #eebc1d;
+}
+.black {
+  color: black;
+  font-weight: bold;
 }
 
 .readmore {
@@ -346,31 +375,133 @@ input {
   font-size: 12px;
   border-radius: 15px;
 }
-// HEAD
-#more {display: none;}
-
-// footer
-
-.site-footer {
-  background-image: linear-gradient(to left, #494848, #878787,#787878);
-  padding-top: 20px 0;
-  margin-top: 2rem;
-}
-
- .link{
- text-decoration: none;
- color: white;
-}
-
-
 
 @media screen and (max-width: 740px) {
   .crypto-head .crypto-container {
     grid-template-columns: 1fr;
   }
+  .crypto-head .crypto-container p {
+    font-size: small;
+  }
+}
+
+#more {
+  display: none;
+}
+#more2 {
+  display: none;
+}
+// HEAD
+
+// footer
+
+.site-footer {
+  background-image: linear-gradient(to left, #494848, #878787, #787878);
+  padding-top: 20px 0;
+  margin-top: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
 }
 
 
-#more {display: none;}
-#more2 {display: none;}
+// show
 
+.show-header {
+  padding: 40px 0;
+  text-align: center;
+
+  img {
+
+  }
+
+  h2 {
+
+  }
+}
+
+.show-graph {
+  height: 200px;
+  width: 100%;
+}
+
+.width {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.show-details {
+  padding-top: 40px;
+  padding-bottom: 60px;
+
+  h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Courier New";
+  }
+  .deets {
+    background-color: #eebc1d;
+    height: 1em;
+    transform: rotate(-1deg);
+    padding: 0 0.25em;
+    border-radius: 15% 15% 15% 15%;
+  }
+}
+
+.show-details-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  color: #eebc1d;
+  font-size: 13.8px;
+
+  h3 {
+    font-size: 14.5px;
+    font-weight: bold;
+    color: #111;
+  }
+}
+
+// halal
+
+.para {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media screen and (max-width: 740px) {
+  .para {
+    font-size: 12px;
+  }
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.here {
+  color: black;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+}
+.here:hover {
+  color:#eebc1d;
+}

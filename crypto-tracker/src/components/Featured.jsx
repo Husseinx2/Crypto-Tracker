@@ -26,6 +26,9 @@ const Featured = () => {
         <div className="left-f">
           <h2><b>Checkout Top Trending <bdo className="Word-CLR">Coins!</bdo></b></h2>
           <p>Live prices & data, with just One Click!</p>
+          <form action="https://www.binance.com/en/buy-sell-crypto" method="get" target="_blank">
+          <button className="coin-button">Want To <bde className="black">"Invest"</bde>?</button>
+          </form>
         </div>
 
         {/* {right} */}
