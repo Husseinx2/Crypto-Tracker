@@ -6,6 +6,7 @@ import Search from "../components/Search"
 import Featured from "../components/Featured"
 import News from "../components/News";
 import Crypto from "../components/Crypto";
+import Halal from "../components/Halal";
 import Footer from "../components/Footer";
 export default function Home() {
   const store = homeStore();
@@ -20,6 +21,7 @@ export default function Home() {
       <Featured />
       <Crypto />
       <News />
+      <Halal />
       <Footer/>
     </div>
   );
