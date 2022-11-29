@@ -318,6 +318,7 @@ input {
     transform: rotate(-1deg);
     padding: 0 0.25em;
     border-radius: 15% 15% 15% 15%;
+    font-size: 28px;
   }
   font-size: 28px;
   font-weight: bolder;
@@ -466,4 +467,41 @@ input {
     font-weight: bold;
     color: #111;
   }
+}
+
+// halal
+
+.para {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media screen and (max-width: 740px) {
+  .para {
+    font-size: 12px;
+  }
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.here {
+  color: black;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+}
+.here:hover {
+  color:#eebc1d;
 }
