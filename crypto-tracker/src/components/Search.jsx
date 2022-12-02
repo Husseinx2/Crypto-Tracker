@@ -68,6 +68,9 @@ const Search = () => {
           </div>
         </div>
       </div>
+      <div id="featured">
+
+      </div>
     </div>
   );
 };
