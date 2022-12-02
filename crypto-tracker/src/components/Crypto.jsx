@@ -109,7 +109,7 @@ function Crypto() {
 
 
         <div className="right-c">
-          <h2>About cryptocurrencies</h2>
+          <h2>About crypto currencies</h2>
           <p>
             <bde className="bold-text">What is blockchain technology? </bde>
             <br></br>
