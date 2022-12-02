@@ -33,7 +33,8 @@ function myFunction2() {
 }
 function Crypto() {
   return (
-    <div className="crypto-head">
+    
+    <div className="crypto-head" >
       <h1 className="whatiscrypto">
         "What is <span>Crypto?</span>"
       </h1>
@@ -101,6 +102,7 @@ function Crypto() {
             Read more
           </button>
         </div>
+        
 
 
         {/* {right} */}
@@ -169,6 +171,7 @@ function Crypto() {
         
       </div>
     </div>
+   
   );
 }
 
