@@ -514,6 +514,12 @@ input {
 
 .react-tweet-card__container {
   border:  2px solid grey;
-  
- 
+  height: 300px;
+  width: 300px;
 }
+.react-tweet-card__author-name ,.react-tweet-card__author-username
+ {
+  height: 20%;
+  width: 20%;
+ }
+
