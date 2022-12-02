@@ -15,8 +15,8 @@ export default function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" >
             <Nav.Link href="/" className="NavLink" > <i className="fa fa-home fa-lg"></i> Home </Nav.Link>
-            <Nav.Link href="/" className="NavLink" > <i className="fa fa-info fa-lg"></i> About Us </Nav.Link>
-            <Nav.Link href="/" className="NavLink"> <i className="fa fa-star fa-lg" ></i> Featured</Nav.Link>
+            <Nav.Link href="#about" className="NavLink" > <i className="fa fa-info fa-lg"></i> About Us </Nav.Link>
+            <Nav.Link href="#featured" className="NavLink"> <i className="fa fa-star fa-lg" ></i> Featured</Nav.Link>
             <Nav.Item>    </Nav.Item>
 
           </Nav>
