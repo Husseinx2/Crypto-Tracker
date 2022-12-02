@@ -179,7 +179,9 @@ const Featured = () => {
             </Link>
         </div>
       </div>
+      <div id="about"></div>
     </div>
+   
   );
 };
 
