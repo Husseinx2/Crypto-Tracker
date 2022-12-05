@@ -399,16 +399,62 @@ input {
 // footer
 
 .site-footer {
-  background-image: linear-gradient(to left, #494848, #878787, #787878);
-  padding-top: 20px 0;
+  // background-image: linear-gradient(to left, #494848, #878787, #787878);
+  background-color:#63615a6d ;
+  // padding-top: 20px 0;
+  padding: 6rem 0;
   margin-top: 2rem;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
 }
+
 
 .link {
   text-decoration: none;
-  color: white;
+  color: rgba(0, 0, 0, 0.836);
 }
 
+.text-center a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
+
+.text-center .icon {
+  color: #303030;
+  margin-right: 4px;
+}
+
+.col-sm h5 {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline rgb(211, 149, 4);
+  text-underline-offset: 7px;
+  text-decoration-thickness: 2px;
+}
+
+.link .clickme {
+  color: red;
+}
+@media screen and (max-width: 740px) {
+  .site-footer .container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .col-sm h5 {
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-center a {
+    font-size: 16px;
+  }
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 // show
 
@@ -517,20 +563,15 @@ input {
 
 .react-tweet-card__container {
   border:  2px solid grey;
-<<<<<<< HEAD
   height: 300px;
   width: 300px;
 }
-.react-tweet-card__author-name ,.react-tweet-card__author-username
+
+.react-tweet-card__author-name .react-tweet-card__author-username
  {
   height: 20%;
   width: 20%;
  }
-
-=======
-
-
-}
 
 
 @media screen and (max-width: 740px) {
@@ -541,4 +582,3 @@ input {
     font-size: 19px;
   }
 }
->>>>>>> 07fa7ec (addded more styling)
