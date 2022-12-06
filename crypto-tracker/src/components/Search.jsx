@@ -15,7 +15,7 @@ const Search = () => {
       <div className="srch">
         {/* {Left side} */}
         <div className="left-s">
-          <p>Invest Wisely! Crypto Tracker is a live crypto analy</p>
+          <p>Invest Wisely! Crypto Tracker is a Live Crypto Analyser, Featuring Real-time Coin Values, Charts, and Data</p>
           <h1>
             Explore crypto like{" "}
             <span className="Word-CLR">Bitcoin, Ethereum, and Dogecoin</span>
