@@ -171,6 +171,9 @@ input {
     grid-template-columns: 1fr;
     margin: 1rem 0;
   }
+  .home-search .img-search img {
+    display: none;
+  }
 }
 
 //featured
@@ -437,7 +440,7 @@ input {
 }
 @media screen and (max-width: 740px) {
   .site-footer .container{
-    grid-template-columns: repeat(2, 1fr);
+    // grid-template-columns: repeat(2, 1fr);
   }
   .col-sm h5 {
     font-size: 17px;

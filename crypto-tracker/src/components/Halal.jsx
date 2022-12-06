@@ -40,7 +40,7 @@ const Halal = () => {
             <br></br>There is some nuance when it comes to analysing which
             cryptos are halal and the different opinions that are held. You can
             check out a more detailed article <a className="here" href="https://www.washingtonpost.com/technology/2022/03/08/bitcoin-crypto-islam-haram/" target="_blank" rel="noreferrer">here</a><span>&nbsp;</span>on the permissibility of
-            crypto. Also, another article covering the <a className="here" href="https://www.washingtonpost.com/technology/2022/03/08/bitcoin-crypto-islam-haram/" target="_blank" rel="noreferrer">differing views</a><span>&nbsp;</span>of the
+            crypto. Also, another article covering the <a className="here" href="https://www.sarwa.co/blog/is-cryptocurrency-halal" target="_blank" rel="noreferrer">differing views</a><span>&nbsp;</span>of the
             permissibility of crypto.
           </p>
           <div className="App">
