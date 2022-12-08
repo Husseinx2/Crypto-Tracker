@@ -162,7 +162,7 @@ function Crypto() {
           <button className="readmore" onClick={myFunction2} id="myBtn2">
             Read more
           </button>
-          <div id="Social"></div>
+          <div id="Halal"></div>
         </div>
       </div>
     </div>
