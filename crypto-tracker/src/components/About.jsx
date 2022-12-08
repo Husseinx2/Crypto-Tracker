@@ -8,7 +8,7 @@ export default function About() {
     <div>
       <div className="split left">
         <div className="centered">
-          <img src={Abdulrahman} alt="Avatar" className="abdo-image" className="avatar" />
+          <img src={Abdulrahman} alt="Avatar" className="abdo-image"  />
           <h2 className="name">ABDULRAHMAN MOHAMMED</h2>
           <p1>
             <h6>
