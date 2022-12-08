@@ -1,42 +1,45 @@
 import React from "react";
 import hussein from "../Assets/Images/Hussein.jpg";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { SocialIcon } from "react-social-icons";
 import Abdulrahman from "../Assets/Images/abdulrahman.JPG";
 export default function About() {
   return (
     <div>
       <div className="split left">
         <div className="centered">
-          <img src={Abdulrahman} alt="Avatar" className="abdo-image" />
-          <h2>Abdulrahman</h2>
+          <img src={Abdulrahman} alt="Avatar" className="abdo-image" className="avatar" />
+          <h2 className="name">ABDULRAHMAN MOHAMMED</h2>
           <p1>
-            City: San Diego, california <br /> <br />
-            Full Stack web/Mobile developer <br /> <br />
-            Socials: <br />
-            <a
-              href="http://instagram.com/abdulrahmancodes"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaInstagram className="icon"></FaInstagram>Instagram
-            </a>
-            <br></br>
-            <a
-              href="http://linkedin.com/in/abdulrahman-mohammed-b48456230"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaLinkedin className="icon"></FaLinkedin>Linkedin
-            </a>
-            <br></br>
-            <a
-              href="https://github.com/Abdulrahman48811"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub className="icon"></FaGithub>Github
-            </a>
-            <br></br>
+            <h6>
+              Full-Stack Web/Mobile Developer <br />{" "}
+            </h6>
+            <p>
+              <bde className="fa fa-map-marker"> San Diego, California</bde>
+              <br />
+              <bde className="fa fa-map-marker"> Toronto, Ontario</bde>
+            </p>
+            {/* Socials: <br /> */}
+            <div className="socialfor">
+              <SocialIcon
+                url="https://www.linkedin.com/in/abdulrahman-mohammed-b48456230/"
+                style={{ height: 45, width: 45 }}
+                />
+              <SocialIcon
+                url="https://github.com/Abdulrahman48811"
+                style={{ height: 45, width: 45 }}
+                />
+              <SocialIcon
+                url="https://www.instagram.com/abdulrahmancodes/"
+                bgColor="#d92e7f"
+                style={{ height: 45, width: 45 }}
+              />
+              <SocialIcon
+                url="https://abdulrahmanmohd.vercel.app/"
+                bgColor="skyblue"
+                style={{ height: 45, width: 45 }}
+              />
+            </div>
           </p1>
         </div>
       </div>
