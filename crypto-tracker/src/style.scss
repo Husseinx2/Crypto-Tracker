@@ -14,7 +14,7 @@ a {
 
 //header
 
-.navbar {
+.navbar  {
   background: #eebc1d;
   background-image: linear-gradient(to left, #eeb8066f, #e1ae40cb, #eebc1d);
   color: white;
@@ -175,6 +175,12 @@ input {
   .home-search .img-search img {
     display: none;
   }
+  .NAV {
+    display: none;
+  }
+
+  
+
 }
 
 //featured
@@ -612,8 +618,9 @@ input {
 /* Control the right side */
 .right {
   right: 0;
-  background-color: #f7d8ba
-}
+  background-color: #f7d8ba;
+  
+} 
 
 
 .centered {
@@ -627,6 +634,18 @@ input {
 .centered img {
   width: 140px;
   border-radius: 50%;
+}
+
+.right:hover {
+     color: white;
+      background-color: rgb(0, 255, 145);
+   h2 {
+    color: blue;
+   }
+   p1 {
+    font-style: italic;
+   }
+    
 }
 
 .centered a {
