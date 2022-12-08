@@ -588,3 +588,48 @@ input {
     font-size: 19px;
   }
 }
+
+///Profile
+
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #acddde
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #f7d8ba
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.centered a {
+  text-decoration: none;
+  color: #111;
+}
