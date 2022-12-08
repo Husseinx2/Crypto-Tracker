@@ -34,12 +34,12 @@ export default function Header() {
               <i className="fa fa-info-circle fa-lg"></i> About
               {" "}
             </Nav.Link>
-            <Nav.Link href="#about" className="NavLink">
+            <Nav.Link href="#Social" className="NavLink">
               {" "}
               <i className="fa fa-twitter fa-lg"></i> Social Media
               {" "}
             </Nav.Link>
-            <Nav.Link href="#about" className="NavLink">
+            <Nav.Link href="#Halal" className="NavLink">
               {" "}
               <i className="fa fa-file-text-o fa-lg"></i> Halal
               {" "}
