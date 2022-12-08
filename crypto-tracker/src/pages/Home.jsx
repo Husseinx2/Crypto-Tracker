@@ -4,7 +4,7 @@ import homeStore from "../stores/homeStore";
 import Header from "../components/Header";
 import Search from "../components/Search"
 import Featured from "../components/Featured"
-import News from "../components/News";
+
 import Crypto from "../components/Crypto";
 import Halal from "../components/Halal";
 import Footer from "../components/Footer";
@@ -20,7 +20,7 @@ export default function Home() {
       <Search />
       <Featured />
       <Crypto />
-      <News />
+      
       <Halal />
       <Footer/>
     </div>
