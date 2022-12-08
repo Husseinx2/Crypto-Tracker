@@ -7,7 +7,7 @@ export default function About() {
     <div>
       <div className="split left">
         <div className="centered">
-          <img src={Abdulrahman} alt="Avatar" />
+          <img src={Abdulrahman} alt="Avatar" className="abdo-image" />
           <h2>Abdulrahman</h2>
           <p1>
             City: San Diego, california <br /> <br />
@@ -43,7 +43,7 @@ export default function About() {
 
       <div className="split right">
         <div className="centered">
-          <img src={hussein} alt="Avatar" />
+          <img src={hussein} alt="avatar" />
           <h2>Hussein</h2>
           <p1>
             City: Columbus, Ohio <br /> <br />
