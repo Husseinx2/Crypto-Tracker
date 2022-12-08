@@ -19,7 +19,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="link">
+                  <Link to="/#about" className="link">
                     About Us{" "}
                   </Link>
                 </li>
@@ -32,10 +32,10 @@ export default function Footer() {
             </Col>
             <Col className="text-center col-sm">
               <h5>Socials</h5>
-                <a href="http://instagram.com/abdulrahmancodes" target="_blank"  rel="noreferrer"><FaInstagram className="icon"></FaInstagram>Instagram</a><br></br>
-                <a href="http://linkedin.com/in/abdulrahman-mohammed-b48456230" target="_blank"  rel="noreferrer"><FaLinkedin className="icon"></FaLinkedin>Linkedin</a><br></br>
-                <a href="https://www.linkedin.com/in/hussein-hussein-99a8221ba/" target="_blank"  rel="noreferrer"><FaLinkedin className="icon"></FaLinkedin>Linkedin</a><br></br>
-                <a href="https://github.com/Abdulrahman48811/Crypto-Tracker"  target="_blank"  rel="noreferrer"><FaGithub className="icon"></FaGithub>Github</a><br></br>
+                <a href="http://instagram.com/abdulrahmancodes" target="_blank"  rel="noreferrer">Instagram</a><br></br>
+                <a href="http://linkedin.com/in/abdulrahman-mohammed-b48456230" target="_blank"  rel="noreferrer">Linkedin</a><br></br>
+                <a href="https://www.linkedin.com/in/hussein-hussein-99a8221ba/" target="_blank"  rel="noreferrer">Linkedin</a><br></br>
+                <a href="https://github.com/Abdulrahman48811/Crypto-Tracker"  target="_blank"  rel="noreferrer">Github</a><br></br>
               {/* <a
                 className="btn btn-social-icon btn-instagram"
                 href="http://instagram.com/abdulrahmancodes"
@@ -59,10 +59,10 @@ export default function Footer() {
                 href="http://linkedin.com/in/abdulrahman-mohammed-b48456230"
               >
                 <i className="fa fa-linkedin" />
-              </a> */}
-            </Col>
+  </a> */}
+            </Col>  
 
-            <Col xs="6" sm="4" className="text-center col-sm">
+            <Col  className="text-center col-sm">
               <h5>Developers</h5>
               <ul className="list-unstyled">
                 <li>
@@ -72,7 +72,7 @@ export default function Footer() {
                 </li>
               </ul>
             </Col>
-            <Col xs="6" sm="3" className="text-center col-sm">
+            <Col  className="text-center col-sm">
               <h5>Contact Us</h5>
               <ul className="list-unstyled">
                 <li>
