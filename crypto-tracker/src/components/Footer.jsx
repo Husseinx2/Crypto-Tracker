@@ -76,7 +76,7 @@ export default function Footer() {
               <h5>Contact Us</h5>
               <ul className="list-unstyled">
                 <li>
-                  <Link to="/" className="link">
+                  <Link to="/Profile" className="link">
                     <a className="clickme" href="/">More Info</a>
                   </Link>
                 </li>
