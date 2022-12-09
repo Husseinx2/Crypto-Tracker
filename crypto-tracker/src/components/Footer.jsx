@@ -32,10 +32,10 @@ export default function Footer() {
             </Col>
             <Col className="text-center col-sm">
               <h5>Socials</h5>
-                <a href="http://instagram.com/abdulrahmancodes" target="_blank"  rel="noreferrer">Instagram</a><br></br>
                 <a href="http://linkedin.com/in/abdulrahman-mohammed-b48456230" target="_blank"  rel="noreferrer">Linkedin</a><br></br>
                 <a href="https://www.linkedin.com/in/hussein-hussein-99a8221ba/" target="_blank"  rel="noreferrer">Linkedin</a><br></br>
                 <a href="https://github.com/Abdulrahman48811/Crypto-Tracker"  target="_blank"  rel="noreferrer">Github</a><br></br>
+                <a href="http://instagram.com/abdulrahmancodes" target="_blank"  rel="noreferrer">Instagram</a><br></br>
               {/* <a
                 className="btn btn-social-icon btn-instagram"
                 href="http://instagram.com/abdulrahmancodes"
@@ -66,8 +66,8 @@ export default function Footer() {
               <h5>Developers</h5>
               <ul className="list-unstyled">
                 <li>
-                  <Link to="/" className="link">
-                    <a href="/">Api{" "}</a>
+                  <Link to="" className="link">
+                    <a href="https://www.coingecko.com" target="_blank" >Api{" "}</a><br />
                   </Link>
                 </li>
               </ul>
