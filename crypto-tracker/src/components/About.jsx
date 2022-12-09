@@ -8,7 +8,7 @@ export default function About() {
     <div>
       <div className="split left">
         <div className="centered">
-          <img src={Abdulrahman} alt="Avatar" className="abdo-image"  />
+          <img src={Abdulrahman} alt="Avatar" className="abdo-image" />
           <h2 className="name">ABDULRAHMAN MOHAMMED</h2>
           <p1>
             <h6>
@@ -22,21 +22,25 @@ export default function About() {
             {/* Socials: <br /> */}
             <div className="socialfor">
               <SocialIcon
+                target="_blank"
                 url="https://www.linkedin.com/in/abdulrahman-mohammed-b48456230/"
                 style={{ height: 45, width: 45 }}
-                />
+              />
               <SocialIcon
+                target="_blank"
                 url="https://github.com/Abdulrahman48811"
                 style={{ height: 45, width: 45 }}
-                />
+              />
               <SocialIcon
+                target="_blank"
                 url="https://www.instagram.com/abdulrahmancodes/"
                 bgColor="#d92e7f"
                 style={{ height: 45, width: 45 }}
               />
               <SocialIcon
+                target="_blank"
                 url="https://abdulrahmanmohd.vercel.app/"
-                bgColor="skyblue"
+                bgColor="#835C3B"
                 style={{ height: 45, width: 45 }}
               />
             </div>
