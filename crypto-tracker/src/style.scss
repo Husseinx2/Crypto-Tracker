@@ -669,11 +669,22 @@ input {
 /* Control the right side */
 .right {
   right: 0;
-  background-color: #f7d8ba;
+  background: linear-gradient(to bottom, #DECBA4, #3E5151);
   
 } 
 
-
+.right  {
+  h2 {
+font-family: 'GoodDog';}
+  p1 {
+    font-family: 'Walkway';   
+  }
+}
+ .title {
+  
+  font-family: "Ink Free", Times, serif;
+  color: black;
+ }
 .centered {
   position: absolute;
   top: 50%;
@@ -687,17 +698,17 @@ input {
   border-radius: 50%;
 }
 
-.right:hover {
-     color: white;
-      background-color: rgb(0, 255, 145);
-   h2 {
-    color: blue;
-   }
-   p1 {
-    font-style: italic;
-   }
+// .right:hover {
+//      color: white;
+//       background-color: rgb(0, 255, 145);
+//    h2 {
+//     color: blue;
+//    }
+//    p1 {
+//     font-style: italic;
+//    }
     
-}
+// }
 
 .centered a {
   text-decoration: none;
