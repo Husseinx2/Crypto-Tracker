@@ -51,17 +51,18 @@ export default function About() {
       <div className="split right">
         <div className="centered">
           <img src={hussein} alt="avatar" />
-          <h2>Hussein</h2>
+          <h2>Hussein Hussein</h2>
+          <span className="title">Front-end web/Mobile developer</span> <br /> <br/>
           <p1>
-            City: Columbus, Ohio <br /> <br />
-            Front-end web/Mobile developer <br /> <br />
-            Socials: <br />
+          <bde className="fa fa-map-marker"> Columbus, Ohio</bde><br/>
+            
+             
             <a
               href="http://instagram.com/hussein_597"
               target="_blank"
               rel="noreferrer"
             >
-              <FaInstagram className="icon"></FaInstagram>Instagram
+              <FaInstagram className="icon"></FaInstagram>
             </a>
             <br></br>
             <a
@@ -69,7 +70,7 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin className="icon"></FaLinkedin>Linkedin
+              <FaLinkedin className="icon"></FaLinkedin>
             </a>
             <br></br>
             <a
@@ -77,7 +78,7 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub className="icon"></FaGithub>Github
+              <FaGithub className="icon"></FaGithub>
             </a>
             <br></br>
           </p1>
