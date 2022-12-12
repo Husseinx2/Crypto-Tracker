@@ -14,17 +14,19 @@ const showStore = create((set) => ({
         `https://api.coingecko.com/api/v3/coins/${id}?market_data=true`
       ),
     ]);
-
+    
     const graphData = graphRes.data.prices.map((price) => {
       const [timestamp, p] = price;
       const date = new Date(timestamp).toLocaleDateString("en-us");
       return {
         Date: date,
         Price: p,
+        data: null,
       };
     });
-
+    
     set({ graphData });
+    set({ data: dataRes.data })
   },
 }));
 
