@@ -21,13 +21,13 @@ const Show = () => {
     // eslint-disable-next-line
   }, []);
 
-  // if (!store.data) return <p>Loading Data ↻</p>;
+  if (!store.data) return <p>Loading Data ↻</p>;
   return (
     <div>
       <Header />
       <header className="show-header">
-        {/* <img src={coin.image} alt="" /> */}
-        {/* <h2> {store.data.name} ({store.data.symbol}) </h2> */}
+        <img src={store.data.image.large} alt="" />
+        <h2> {store.data.name} ({store.data.symbol}) </h2>
       </header>
       <div className="width">
         <div className="show-graph">
@@ -62,28 +62,28 @@ const Show = () => {
           </h2>
           <div className="show-details-row">
             <h3>Market Cap Rank</h3>
-            {/* <span>{store.data.market_data.market_cap_rank}</span> */}
+            <span>{store.data.market_data.market_cap_rank}</span>
           </div>
           <div className="show-details-row">
             <h3>24h High</h3>
-            {/* <span>${store.data.market_data.high_24h.usd}</span> */}
+            <span>${store.data.market_data.high_24h.usd}</span>
           </div>
           <div className="show-details-row">
             <h3>24h Low</h3>
-            {/* <span>${store.data.market_data.low_24h.usd}</span> */}
+            <span>${store.data.market_data.low_24h.usd}</span>
           </div>
           <div className="show-details-row">
             <h3>Circulating Supply</h3>
-            {/* <span>${store.data.market_data.circulating_supply}</span> */}
+            <span>${store.data.market_data.circulating_supply}</span>
           </div>
           <div className="show-details-row">
             <h3>Current Price</h3>
-            {/* <span>${store.data.market_data.current_price.usd}</span> */}
+            <span>${store.data.market_data.current_price.usd}</span>
           </div>
           <div className="show-details-row">
             <h3>1y Change</h3>
             <span>
-              {/* {store.data.market_data.price_change_percentage_1y.toFixed(2)}% */}
+              {store.data.market_data.price_change_percentage_1y.toFixed(2)}%
             </span>
           </div>
         </div>
