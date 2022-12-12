@@ -493,13 +493,21 @@ input {
   padding: 40px 0;
   text-align: center;
 
-  // img {
+  img {
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
 
-  // }
-
-  // h2 {
-
-  // }
+  h2 {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .show-header h2 {
+    font-size: 26px;
+  }
 }
 
 .show-graph {
