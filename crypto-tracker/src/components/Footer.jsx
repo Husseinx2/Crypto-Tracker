@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
@@ -93,7 +92,7 @@ export default function Footer() {
               <h5>Developers</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="https://www.coingecko.com/en/api" target="_blank">
+                  <a href="https://www.coingecko.com/en/api" target="_blank" rel="noreferrer">
                     Api{" "}
                   </a>
                   <br />
