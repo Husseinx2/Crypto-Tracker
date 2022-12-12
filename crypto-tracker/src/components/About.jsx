@@ -3,16 +3,22 @@ import hussein from "../Assets/Images/Hussein.jpg";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SocialIcon } from "react-social-icons";
 import Abdulrahman from "../Assets/Images/abdulrahman.JPG";
+import { Breadcrumb, BreadcrumbItem } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
     <div>
       <div className="split left">
-        {/* <div className="breadcrumb">
-          <p1>
-            <a href="/">Home</a>/More info
-          </p1>
-        </div> */}
+        <div className="breadcrumb">
+          <Breadcrumb>
+            <BreadcrumbItem>
+              
+              <Link to="/">Home</Link>
+            </BreadcrumbItem>
+            <BreadcrumbItem active>Library</BreadcrumbItem>
+          </Breadcrumb>
+        </div>
         <div className="centered">
           <img src={Abdulrahman} alt="Avatar" className="abdo-image" />
           <h2 className="name">ABDULRAHMAN MOHAMMED</h2>
