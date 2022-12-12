@@ -168,5 +168,4 @@ function Crypto() {
     </div>
   );
 }
-
 export default Crypto;
