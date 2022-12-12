@@ -712,6 +712,11 @@ input {
 } 
 .right:hover {
   background: linear-gradient(to right, #DECBA4, #3E5151);
+  .hidden {
+    display:contents;
+  }
+  
+ 
 }
 .location {
   margin-bottom: 20px;
@@ -737,12 +742,34 @@ font-family: 'GoodDog';}
   p1 {
     font-family: 'Walkway';   
   }
+  i {
+    color: rgb(35, 18, 116);
+  }
+  i:hover {
+    color: white;
+  }
 }
+
+
  .title {
   
   font-family: "Ink Free", Times, serif;
   color: black;
  }
+
+ .hidden {
+  display: none;
+ }
+.last-name {
+  color: #ffffff79;
+}
+.last-name:hover {
+  color: white;
+  
+  
+}
+
+ ////
 .centered {
   position: absolute;
   top: 50%;
