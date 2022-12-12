@@ -15,7 +15,10 @@ const Search = () => {
       <div className="srch">
         {/* {Left side} */}
         <div className="left-s">
-          <p>Invest Wisely! Crypto Tracker is a Live Crypto Analyser, Featuring Real-time Coin Values, Charts, and Data</p>
+          <p>
+            Invest Wisely! Crypto Tracker is a Live Crypto Analyser, Featuring
+            Real-time Coin Values, Charts, and Data
+          </p>
           <h1>
             Explore crypto like{" "}
             <span className="Word-CLR">Bitcoin, Ethereum, and Dogecoin</span>
@@ -44,15 +47,15 @@ const Search = () => {
                     </span>
                     <span className="home-crypto-name">{coin.name}</span>
                     {coin.priceBtc && (
-                    <span className="home-crypto-prices">
-                      <span className="home-crypto-Btc">
-                        {coin.priceBtc} <bdo className="Word-CLR">BTC</bdo>
+                      <span className="home-crypto-prices">
+                        <span className="home-crypto-Btc">
+                          {coin.priceBtc} <bdo className="Word-CLR">BTC</bdo>
+                        </span>
+                        <span className="home-crypto-Usd">
+                          {coin.priceUsd} <bdo className="Word-CLR">USD</bdo>
+                        </span>
                       </span>
-                      <span className="home-crypto-Usd">
-                        {coin.priceUsd} <bdo className="Word-CLR">USD</bdo>
-                      </span> 
-                    </span>
-                      )}
+                    )}
                   </Link>
                 </div>
               );
@@ -68,9 +71,7 @@ const Search = () => {
           </div>
         </div>
       </div>
-      <div id="featured">
-
-      </div>
+      <div id="featured"></div>
     </div>
   );
 };
