@@ -10,7 +10,6 @@ import { Link } from "react-router-dom";
 export default function About() {
   return (
     <div>
-      
       <div className="split left">
         <div className="breadcrumb">
           <Breadcrumb>
@@ -64,20 +63,22 @@ export default function About() {
                 bgColor="#d92e7f"
                 style={{ height: 45, width: 45 }}
               />
-            </div>
+            </div><br/><br/>
+           <h6>Contact Me</h6>
+            <a href="mailto:abdulrahman48811@gmail.com?subject = Feedback&body = Message">
+            <i className="fa fa-envelope fa-lg" /> {" "}
+            </a>
+            
           </p1>
         </div>
       </div>
 
       <div className="split right">
-        
         <div className="centered">
-          
           <img src={hussein} classname="avatar" alt="avatar" />
           <h2>
             Hussein <span className="last-name">Hussein</span>
           </h2>
-          
           <span className="title">Front-end web/Mobile developer</span> <br />{" "}
           <br />
           <p1>
