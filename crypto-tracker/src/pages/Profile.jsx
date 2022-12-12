@@ -8,7 +8,7 @@ export default function Profile() {
     <div>
       
       <About />
-
+<Header/> 
     </div>
   );
 }
