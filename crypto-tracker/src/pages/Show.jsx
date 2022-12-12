@@ -27,7 +27,10 @@ const Show = () => {
       <Header />
       <header className="show-header">
         <img src={store.data.image.large} alt="" />
-        <h2> {store.data.name} ({store.data.symbol}) </h2>
+        <h2>
+          {" "}
+          {store.data.name} ({store.data.symbol}){" "}
+        </h2>
       </header>
       <div className="width">
         <div className="show-graph">
@@ -40,7 +43,7 @@ const Show = () => {
                 left: 0,
                 bottom: 0,
               }}
-              >
+            >
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="Date" />
               <YAxis />
@@ -50,7 +53,7 @@ const Show = () => {
                 dataKey="Price"
                 stroke="#8884d8"
                 fill="#8884d8"
-                />
+              />
             </AreaChart>
           </ResponsiveContainer>
         </div>
