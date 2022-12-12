@@ -13,7 +13,6 @@ export default function About() {
         <div className="breadcrumb">
           <Breadcrumb>
             <BreadcrumbItem>
-              
               <Link to="/">Home</Link>
             </BreadcrumbItem>
             <BreadcrumbItem active>Library</BreadcrumbItem>
@@ -29,10 +28,20 @@ export default function About() {
             <p>
               <bde className="fa fa-map-marker"> San Diego, California</bde>
               <br />
-              <bde className="fa fa-map-marker"> Toronto, Ontario</bde>
+              <bde className="fa fa-map-marker"> Toronto, Ontario</bde><br/>
+            <span className="hovertext" data-hover="Abdulrahman is a Web Developer with more than one year of experience, who graduated from the Lighthouse Labs Coding Bootcamp">
+              About Abdulrahman
+            </span>
             </p>
+
             {/* Socials: <br /> */}
             <div className="socialfor">
+              <SocialIcon
+                target="_blank"
+                url="https://abdulrahmanmohd.vercel.app/"
+                bgColor="#835C3B"
+                style={{ height: 45, width: 45 }}
+              />
               <SocialIcon
                 target="_blank"
                 url="https://www.linkedin.com/in/abdulrahman-mohammed-b48456230/"
@@ -47,12 +56,6 @@ export default function About() {
                 target="_blank"
                 url="https://www.instagram.com/abdulrahmancodes/"
                 bgColor="#d92e7f"
-                style={{ height: 45, width: 45 }}
-              />
-              <SocialIcon
-                target="_blank"
-                url="https://abdulrahmanmohd.vercel.app/"
-                bgColor="#835C3B"
                 style={{ height: 45, width: 45 }}
               />
             </div>
