@@ -3,9 +3,11 @@ import hussein from "../Assets/Images/Hussein.jpg";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SocialIcon } from "react-social-icons";
 import Abdulrahman from "../Assets/Images/abdulrahman.JPG";
+import Header from "./Header";
 export default function About() {
   return (
     <div>
+      <Header/>
       <div className="split left">
         <div className="centered">
           <img src={Abdulrahman} alt="Avatar" className="abdo-image" />
