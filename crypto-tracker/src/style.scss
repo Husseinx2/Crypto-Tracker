@@ -14,7 +14,7 @@ a {
 
 //header
 
-.navbar  {
+.navbar {
   background: #eebc1d;
   background-image: linear-gradient(to left, #eeb8066f, #e1ae40cb, #eebc1d);
   color: white;
@@ -29,6 +29,7 @@ a {
   bdo {
     color: rgba(255, 255, 255, 0.903);
   }
+
   font-size: 35px;
   font-weight: bolder;
   font-family: "Courier New";
@@ -139,6 +140,7 @@ input {
     padding: 15px 0;
     border-bottom: 1px solid #ddd;
   }
+
   span {
     display: block;
   }
@@ -172,14 +174,16 @@ input {
     grid-template-columns: 1fr;
     margin: 1rem 0;
   }
+
   .home-search .img-search img {
     display: none;
   }
+
   .NAV {
     display: none;
   }
 
-  
+
 
 }
 
@@ -235,6 +239,7 @@ input {
   font-weight: 600;
   cursor: pointer;
 }
+
 .coin-button:hover {
   border: 0px;
   box-shadow: rgb(255, 188, 4) 3px 4px 80px 4px;
@@ -246,6 +251,7 @@ input {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 .linkto {
   text-decoration: none;
   color: black;
@@ -279,6 +285,7 @@ input {
   margin: auto;
   padding: 0.2rem 0;
 }
+
 .featured .right-f p {
   padding-bottom: 5px;
   line-height: 0px;
@@ -300,15 +307,19 @@ input {
   .featured .ftrd {
     grid-template-columns: 1fr;
   }
+
   .featured .left-f .coin-button {
     align-self: center;
   }
+
   .featured .left-f h2 {
     align-self: center;
   }
+
   .featured .left-f p {
     align-self: center;
   }
+
   .featured .left-f form {
     align-self: center;
   }
@@ -322,17 +333,21 @@ input {
 
 @media screen and (max-width: 878px) {
   .featured .ftrd {
-    grid-template-columns:repeat(1, 3fr)
+    grid-template-columns: repeat(1, 3fr)
   }
+
   .featured .left-f .coin-button {
     align-self: center;
   }
+
   .featured .left-f h2 {
     align-self: center;
   }
+
   .featured .left-f p {
     align-self: center;
   }
+
   .featured .left-f form {
     align-self: center;
   }
@@ -353,6 +368,7 @@ input {
     border-radius: 15% 15% 15% 15%;
     font-size: 28px;
   }
+
   font-size: 28px;
   font-weight: bolder;
   font-family: "Courier New";
@@ -392,6 +408,7 @@ input {
   font-weight: bold;
   color: #eebc1d;
 }
+
 .black {
   color: black;
   font-weight: bold;
@@ -413,6 +430,7 @@ input {
   .crypto-head .crypto-container {
     grid-template-columns: 1fr;
   }
+
   .crypto-head .crypto-container p {
     font-size: small;
   }
@@ -421,16 +439,18 @@ input {
 #more {
   display: none;
 }
+
 #more2 {
   display: none;
 }
+
 // HEAD
 
 // footer
 
 .site-footer {
   // background-image: linear-gradient(to left, #494848, #878787, #787878);
-  background-color:#63615a6d ;
+  background-color: #63615a6d;
   // padding-top: 20px 0;
   padding: 6rem 0;
   margin-top: 2rem;
@@ -465,10 +485,12 @@ input {
 .link .clickme {
   color: red;
 }
+
 @media screen and (max-width: 740px) {
-  .site-footer .container{
+  .site-footer .container {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .col-sm h5 {
     font-size: 17px;
     font-weight: bold;
@@ -477,9 +499,11 @@ input {
     align-items: center;
     text-underline-offset: 3px;
   }
+
   .text-center a {
     font-size: 16px;
   }
+
   .link {
     display: flex;
     justify-content: center;
@@ -524,6 +548,7 @@ input {
     font-weight: bolder;
     font-family: "Courier New";
   }
+
   .deets {
     background-color: #eebc1d;
     height: 1em;
@@ -582,33 +607,34 @@ input {
   text-decoration-color: red;
   text-decoration-thickness: 2px;
 }
+
 .here:hover {
-  color:#eebc1d;
+  color: #eebc1d;
 }
 
 //tweet
 
-.react-tweet-card__replies{
+.react-tweet-card__replies {
   visibility: hidden;
 }
 
 .react-tweet-card__container {
-  border:  2px solid grey;
+  border: 2px solid grey;
   height: 300px;
   width: 300px;
 }
 
-.react-tweet-card__author-name .react-tweet-card__author-username
- {
+.react-tweet-card__author-name .react-tweet-card__author-username {
   height: 20%;
   width: 20%;
- }
+}
 
 
 @media screen and (max-width: 740px) {
-  .news h1{
+  .news h1 {
     font-size: 19px;
   }
+
   .news h1 span {
     font-size: 19px;
   }
@@ -631,12 +657,12 @@ input {
 /* Control the left side */
 .left {
   left: 0;
-  background: linear-gradient(to bottom, black 0%,black 25%,#000000 0%,#acddde 50%,#acddde 100%);
+  background: linear-gradient(to bottom, black 0%, black 25%, #000000 0%, #acddde 50%, #acddde 100%);
 }
 
 .centered .name {
   font-size: 25px;
-  font-family:monospace;
+  font-family: monospace;
   font-weight: bold;
   letter-spacing: 3px;
   text-decoration: underline rgb(211, 149, 4);
@@ -644,13 +670,15 @@ input {
   text-decoration-thickness: 2px;
 }
 
-.centered h6{
+.centered h6 {
   font-size: 13px;
-  font-family:monospace;
+  font-family: monospace;
 }
+
 .centered p {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 .socialfor {
   display: inline-grid;
   grid-template-columns: repeat(4, auto);
@@ -662,29 +690,61 @@ input {
     font-size: 18px;
     text-underline-offset: 4px;
   }
+
   .socialfor {
     column-gap: 2px;
   }
 }
+
 /* Control the right side */
 .right {
   right: 0;
-  background: linear-gradient(to bottom, #DECBA4, #3E5151);
-  
-} 
+  background: linear-gradient(to top, #DECBA4, #3E5151);
 
-.right  {
+}
+
+.right:hover {
+  background: linear-gradient(to right, #DECBA4, #3E5151);
+}
+
+.location {
+  margin-bottom: 20px;
+}
+
+.Hussein-social {
+  display: inline-grid;
+
+  grid-template-columns: repeat(5, auto);
+  column-gap: 16px;
+
+
+}
+
+.icon {
+  color: #1a0080
+}
+
+.icon:hover {
+  color: whitesmoke;
+
+}
+
+.right {
   h2 {
-font-family: 'GoodDog';}
+    font-family: 'GoodDog';
+  }
+
   p1 {
-    font-family: 'Walkway';   
+    font-family: 'Walkway';
   }
 }
- .title {
-  
+
+.title {
+
   font-family: "Ink Free", Times, serif;
   color: black;
- }
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -698,17 +758,7 @@ font-family: 'GoodDog';}
   border-radius: 50%;
 }
 
-// .right:hover {
-//      color: white;
-//       background-color: rgb(0, 255, 145);
-//    h2 {
-//     color: blue;
-//    }
-//    p1 {
-//     font-style: italic;
-//    }
-    
-// }
+
 
 .centered a {
   text-decoration: none;
