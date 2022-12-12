@@ -6,7 +6,7 @@ import About from "../components/About";
 export default function Profile() {
   return (
     <div>
-      <Header />
+      
       <About />
 
     </div>
