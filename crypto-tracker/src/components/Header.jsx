@@ -39,7 +39,7 @@ export default function Header() {
 
               <Nav.Link href="/#Halal" className="NavLink">
                 {" "}
-                <i className="fa fa-file-text-o fa-lg"></i> Halal{" "}
+                <i className="fa fa-file-text fa-lg"></i> Halal{" "}
               </Nav.Link>
               <Nav.Item> </Nav.Item>
             </Nav>
