@@ -19,10 +19,13 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <a href="/#about" className="link">About Us </a>
+                <a href="/#featured" className="link">Featured </a>
                 </li>
                 <li>
-                <a href="/#featured" className="link">Featured </a>
+                  <a href="/#about" className="link">About </a>
+                </li>
+                <li>
+                <a href="/#Halal" className="link">Halal </a>
                 </li>
               </ul>
             </Col>
