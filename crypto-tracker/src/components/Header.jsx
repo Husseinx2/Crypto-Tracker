@@ -18,11 +18,11 @@ export default function Header() {
           <bdo className="white">"Crypto</bdo> Tracker"
         </Navbar.Brand>
         <Navbar.Toggle className="NAV" aria-controls="basic-navbar-nav" />
-        <Navbar.Offcanvas  className="NAV"  >
+        <Navbar.Offcanvas className="NAV">
           <Offcanvas.Header closeButton>
             <Offcanvas.Title className="">Crypto Tracker</Offcanvas.Title>
           </Offcanvas.Header>
-          <Offcanvas.Body >
+          <Offcanvas.Body>
             <Nav className="ms-auto">
               <Nav.Link href="/" className="NavLink">
                 {" "}
@@ -36,7 +36,7 @@ export default function Header() {
                 {" "}
                 <i className="fa fa-info-circle fa-lg"></i> About{" "}
               </Nav.Link>
-             
+
               <Nav.Link href="/#Halal" className="NavLink">
                 {" "}
                 <i className="fa fa-file-text-o fa-lg"></i> Halal{" "}
