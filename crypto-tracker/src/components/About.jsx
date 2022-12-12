@@ -5,9 +5,10 @@ import { SocialIcon } from "react-social-icons";
 import Abdulrahman from "../Assets/Images/abdulrahman.JPG";
 import Header from "./Header";
 export default function About() {
-  return (
+  return ( <div>
+    <Header/>
+    
     <div>
-      <Header/>
       <div className="split left">
         <div className="centered">
           <img src={Abdulrahman} alt="Avatar" className="abdo-image" />
@@ -54,39 +55,52 @@ export default function About() {
         <div className="centered">
           <img src={hussein} alt="avatar" />
           <h2>Hussein Hussein</h2>
-          <span className="title">Front-end web/Mobile developer</span> <br /> <br/>
+          <span className="title">
+            Front-end web/Mobile developer
+          </span> <br /> <br />
           <p1>
-          <bde className="fa fa-map-marker location"> Columbus, Ohio</bde><br/>
-            
-             <div className="Hussein-social">
-            <a
-              href="http://instagram.com/hussein_597"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaInstagram className="icon" style={{ height: 50, width: 30 }}></FaInstagram>
-            </a>
-            <br></br>
-            <a
-              href="https://www.linkedin.com/in/hussein-hussein-99a8221ba/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaLinkedin className="icon"style={{ height: 50, width: 30 }} ></FaLinkedin>
-            </a>
-            <br></br>
-            <a
-              href="https://github.com/husseinx2"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub className="icon" style={{ height: 50, width: 30 }}></FaGithub>
-            </a>
+            <bde className="fa fa-map-marker location"> Columbus, Ohio</bde>
+            <br />
+
+            <div className="Hussein-social">
+              <a
+                href="http://instagram.com/hussein_597"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaInstagram
+                  className="icon"
+                  style={{ height: 50, width: 30 }}
+                ></FaInstagram>
+              </a>
+              <br></br>
+              <a
+                href="https://www.linkedin.com/in/hussein-hussein-99a8221ba/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin
+                  className="icon"
+                  style={{ height: 50, width: 30 }}
+                ></FaLinkedin>
+              </a>
+              <br></br>
+              <a
+                href="https://github.com/husseinx2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub
+                  className="icon"
+                  style={{ height: 50, width: 30 }}
+                ></FaGithub>
+              </a>
             </div>
             <br></br>
           </p1>
         </div>
       </div>
+    </div>
     </div>
   );
 }
