@@ -29,7 +29,7 @@ const Featured = () => {
               Checkout Top Trending <bdo className="Word-CLR">Coins!</bdo>
             </b>
           </h2>
-          <p>Live prices & data, with just One Click!</p>
+          <p>Live Prices & Data, with just One Click!</p>
           <form
             action="https://www.binance.com/en/buy-sell-crypto"
             method="get"
