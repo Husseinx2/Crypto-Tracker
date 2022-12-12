@@ -21,31 +21,27 @@ const News = () => {
 
   return (
     <div className="news">
-      <h1 className="whatiscrypto">"Social Media On<span>Crypto Currency</span>"</h1>
+      <h1 className="whatiscrypto">
+        "Social Media On<span>Crypto Currency</span>"
+      </h1>
       <Container>
         <TweetCard
-        engagement={{
-          retweets:data[0].retweet_count,
-          likes: data[0].like_count
-
-        }}
+          engagement={{
+            retweets: data[0].retweet_count,
+            likes: data[0].like_count,
+          }}
           author={{
             username: data[0].user_name,
             image: data[0].user_image_link,
-            
           }}
           tweet={data[0].status}
           time={data[0].date}
-          
           permalink={data[0].status_link}
           colors={{
-            primary: 'black',
-            secondary: '#08004d',
-            accent: '#ffffd8',
-            
-            
+            primary: "black",
+            secondary: "#08004d",
+            accent: "#ffffd8",
           }}
-          
         ></TweetCard>
       </Container>
       <div id="Halal"></div>
