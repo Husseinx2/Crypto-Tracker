@@ -3,12 +3,14 @@ import hussein from "../Assets/Images/Hussein.jpg";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SocialIcon } from "react-social-icons";
 import Abdulrahman from "../Assets/Images/abdulrahman.JPG";
+
 import { Breadcrumb, BreadcrumbItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function About() {
   return (
     <div>
+      
       <div className="split left">
         <div className="breadcrumb">
           <Breadcrumb>
@@ -28,10 +30,14 @@ export default function About() {
             <p>
               <bde className="fa fa-map-marker"> San Diego, California</bde>
               <br />
-              <bde className="fa fa-map-marker"> Toronto, Ontario</bde><br/>
-            <span className="hovertext" data-hover="Abdulrahman is a Web Developer with more than one year of experience, who graduated from the Lighthouse Labs Coding Bootcamp">
-              About Abdulrahman
-            </span>
+              <bde className="fa fa-map-marker"> Toronto, Ontario</bde>
+              <br />
+              <span
+                className="hovertext"
+                data-hover="Abdulrahman is a Web Developer with more than one year of experience, who graduated from the Lighthouse Labs Coding Bootcamp"
+              >
+                About Abdulrahman
+              </span>
             </p>
 
             {/* Socials: <br /> */}
@@ -64,12 +70,16 @@ export default function About() {
       </div>
 
       <div className="split right">
+        
         <div className="centered">
-          <img src={hussein} alt="avatar" />
-          <h2>Hussein Hussein</h2>
-          <span className="title">
-            Front-end web/Mobile developer
-          </span> <br /> <br />
+          
+          <img src={hussein} classname="avatar" alt="avatar" />
+          <h2>
+            Hussein <span className="last-name">Hussein</span>
+          </h2>
+          
+          <span className="title">Front-end web/Mobile developer</span> <br />{" "}
+          <br />
           <p1>
             <bde className="fa fa-map-marker location"> Columbus, Ohio</bde>
             <br />
@@ -108,6 +118,17 @@ export default function About() {
                 ></FaGithub>
               </a>
             </div>
+
+            <p1 className="hidden">
+              {" "}
+              <br />
+              My name's Hussein <span className="last-name">Hussein</span>, I'm
+              a 20 year old front-end developer.
+              <br /> <br />
+              <i className="fa fa-envelope"></i> :Husseinwkc@gmail.com
+              <br />
+              <i className="fa fa-phone"></i>: +1-678-602-2522
+            </p1>
             <br></br>
           </p1>
         </div>
