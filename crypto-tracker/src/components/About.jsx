@@ -54,15 +54,15 @@ export default function About() {
           <h2>Hussein Hussein</h2>
           <span className="title">Front-end web/Mobile developer</span> <br /> <br/>
           <p1>
-          <bde className="fa fa-map-marker"> Columbus, Ohio</bde><br/>
+          <bde className="fa fa-map-marker location"> Columbus, Ohio</bde><br/>
             
-             
+             <div className="Hussein-social">
             <a
               href="http://instagram.com/hussein_597"
               target="_blank"
               rel="noreferrer"
             >
-              <FaInstagram className="icon"></FaInstagram>
+              <FaInstagram className="icon" style={{ height: 50, width: 30 }}></FaInstagram>
             </a>
             <br></br>
             <a
@@ -70,7 +70,7 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin className="icon"></FaLinkedin>
+              <FaLinkedin className="icon"style={{ height: 50, width: 30 }} ></FaLinkedin>
             </a>
             <br></br>
             <a
@@ -78,8 +78,9 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub className="icon"></FaGithub>
+              <FaGithub className="icon" style={{ height: 50, width: 30 }}></FaGithub>
             </a>
+            </div>
             <br></br>
           </p1>
         </div>
