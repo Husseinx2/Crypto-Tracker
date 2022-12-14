@@ -63,12 +63,13 @@ export default function About() {
                 bgColor="#d92e7f"
                 style={{ height: 45, width: 45 }}
               />
-            </div><br/><br/>
-           <h6>Contact Me</h6>
+            </div>
+            <br />
+            <br />
+            <h6>Contact Me</h6>
             <a href="mailto:abdulrahman48811@gmail.com?subject = Feedback&body = Message">
-            <i className="fa fa-envelope fa-lg" /> {" "}
+              <i className="fa fa-envelope fa-lg" />{" "}
             </a>
-            
           </p1>
         </div>
       </div>
