@@ -12,6 +12,8 @@ import {
 } from "recharts";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Breadcrumb, BreadcrumbItem } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Show = () => {
   const store = showStore();
@@ -25,6 +27,14 @@ const Show = () => {
   return (
     <div>
       <Header />
+      <div className="breadcrumb">
+          <Breadcrumb>
+            <BreadcrumbItem>
+              <Link to="/">Home</Link>
+            </BreadcrumbItem>
+            <BreadcrumbItem active>Show</BreadcrumbItem>
+          </Breadcrumb>
+        </div>
       <header className="show-header">
         <img src={store.data.image.large} alt="" />
         <h2>
