@@ -16,7 +16,7 @@ export default function About() {
             <BreadcrumbItem>
               <Link to="/">Home</Link>
             </BreadcrumbItem>
-            <BreadcrumbItem active>Library</BreadcrumbItem>
+            <BreadcrumbItem active>Profile</BreadcrumbItem>
           </Breadcrumb>
         </div>
         <div className="centered">
