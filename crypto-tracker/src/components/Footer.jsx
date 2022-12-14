@@ -18,13 +18,19 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                <a href="/#featured" className="link">Featured </a>
+                  <a href="/#featured" className="link">
+                    Featured{" "}
+                  </a>
                 </li>
                 <li>
-                  <a href="/#about" className="link">About </a>
+                  <a href="/#about" className="link">
+                    About{" "}
+                  </a>
                 </li>
                 <li>
-                <a href="/#Halal" className="link">Halal </a>
+                  <a href="/#Halal" className="link">
+                    Halal{" "}
+                  </a>
                 </li>
               </ul>
             </Col>
@@ -62,37 +68,17 @@ export default function Footer() {
                 Instagram
               </a>
               <br></br>
-              {/* <a
-                className="btn btn-social-icon btn-instagram"
-                href="http://instagram.com/abdulrahmancodes"
-              >
-                <i className="fa fa-instagram" />
-              </a>{" "}
-              <a
-                className="btn btn-social-icon btn-github"
-                href="https://github.com/Abdulrahman48811/Crypto-Tracker"
-              >
-                <i className="fa fa-github" />
-              </a>{" "}
-              <a
-                className="btn btn-social-icon btn-twitter"
-                href="http://twitter.com/"
-              >
-                <i className="fa fa-twitter" />
-              </a>{" "}
-              <a
-                className="btn btn-social-icon btn-linkedin"
-                href="http://linkedin.com/in/abdulrahman-mohammed-b48456230"
-              >
-                <i className="fa fa-linkedin" />
-  </a> */}
             </Col>
 
             <Col className="text-center col-sm">
               <h5>Developers</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="https://www.coingecko.com/en/api" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.coingecko.com/en/api"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Api{" "}
                   </a>
                   <br />
