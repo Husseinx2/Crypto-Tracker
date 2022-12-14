@@ -2,8 +2,8 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import homeStore from "../stores/homeStore";
 import Header from "../components/Header";
-import Search from "../components/Search"
-import Featured from "../components/Featured"
+import Search from "../components/Search";
+import Featured from "../components/Featured";
 
 import Crypto from "../components/Crypto";
 import Halal from "../components/Halal";
@@ -20,9 +20,9 @@ export default function Home() {
       <Search />
       <Featured />
       <Crypto />
-      
+
       <Halal />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
