@@ -7,7 +7,7 @@ This a Live Crypto Analyser, Featuring Real-time Coin Values, Charts, and Data. 
 
 
 ### H E R E  I S  A  L O O K  O F  T H E  A P P
-![H E R E I S A L O O K O F T H E A P P] (crypto-tracker/src/Assets/Images/project.PNG)
+![H E R E I S A L O O K O F T H E A P P](crypto-tracker/src/Assets/Images/project.PNG)
 
 # Getting Started with Create React App
 
