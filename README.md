@@ -3,7 +3,8 @@ This is a React.js project bootstrapped with create-react-app.
 This a Live Crypto Analyser, Featuring Real-time Coin Values, Charts, and Data. This is a duo project, a collaboration with Hussein, https://github.com/Husseinx2 
 
 
-### LINK TO THE BUILD [] ()
+### LINK TO THE BUILD 
+![https://crypto-trackerr.vercel.app/](https://crypto-trackerr.vercel.app/)
 
 
 ### H E R E  I S  A  L O O K  O F  T H E  A P P
