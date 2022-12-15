@@ -4,7 +4,7 @@ This a Live Crypto Analyser, Featuring Real-time Coin Values, Charts, and Data. 
 
 
 ### LINK TO THE BUILD 
-![https://crypto-trackerr.vercel.app/](https://crypto-trackerr.vercel.app/)
+[https://crypto-trackerr.vercel.app/](https://crypto-trackerr.vercel.app/)
 
 
 ### H E R E  I S  A  L O O K  O F  T H E  A P P
