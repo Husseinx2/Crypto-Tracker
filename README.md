@@ -1,6 +1,6 @@
 This is a React.js project bootstrapped with create-react-app. 
 
-This a Live Crypto Analyser, Featuring Real-time Coin Values, Charts, and Data. This is a duo project, a collaboration with Hussein, https://github.com/Husseinx2 
+This a Live Crypto Analyser, Featuring Real-time Coin Values, Charts, and Data. This is a duo project, a collaboration with Abdulrahman, https://github.com/Abdulrahman48811
 
 
 ### LINK TO THE BUILD 
